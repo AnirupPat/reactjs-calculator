@@ -1,4 +1,6 @@
 .input {
     width: -webkit-fill-available;
     height: 50px;
+    font-size: 40px;
+    border-color: black;
 }
