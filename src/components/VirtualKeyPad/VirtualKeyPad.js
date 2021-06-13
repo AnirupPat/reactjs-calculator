@@ -1,11 +1,11 @@
 import classes from './VirtualKeyPad.module.css';
 import Card from '../UI/Card/Card';
+import NumberButton from '../UI/NumberButton/NumberButton';
 
-const VirtualKeyPad = () => {
+const VirtualKeyPad = (props) => {
     return (
-        <Card className={classes.virtualKeyPad}>
-
-        </Card>
+        
+            <NumberButton number={props.number} />
     );
 }
 
