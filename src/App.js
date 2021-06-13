@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import classes from './App.module.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <React.Fragment>
-    
-    </React.Fragment>
+    <div className={classes.app}>
+      <Calculator />
+    </div>
   );
 }
 
