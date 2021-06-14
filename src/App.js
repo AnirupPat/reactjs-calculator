@@ -1,6 +1,6 @@
-import React from 'react';
-import classes from './App.module.css';
-import Calculator from './components/Calculator';
+import React from "react";
+import classes from "./App.module.css";
+import Calculator from "./components/Calculator";
 
 function App() {
   return (

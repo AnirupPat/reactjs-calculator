@@ -1,10 +1,10 @@
 .input {
-    width: -webkit-fill-available;
-    height: 50px;
-    font-size: 40px;
-    color: white;
-    border-radius: 5px;
-    border: 3px solid white;
-    text-align: end;
-    background-color: black;
+  width: -webkit-fill-available;
+  height: 50px;
+  font-size: 40px;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid white;
+  text-align: end;
+  background-color: black;
 }
