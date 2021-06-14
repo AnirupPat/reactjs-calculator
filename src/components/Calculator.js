@@ -11,9 +11,7 @@ const Calculator = () => {
       <Input />
       <Card className={classes.virtualCard}>
       {numberInput.map(number =>   <VirtualKeyPad number={number} />) }
-      
       </Card>
-      
     </Card>
   );
 };
