@@ -1,4 +1,3 @@
-import classes from "./VirtualKeyPad.module.css";
 import NumberButton from "../UI/NumberButton/NumberButton";
 
 const VirtualKeyPad = (props) => {
