@@ -7,8 +7,14 @@ const NumberButton = (props) => {
   const [buttonHighlighted, setButtonHighlighted] = useState(false);
   const buttonClickHandler = (event) => {
     event.preventDefault();
-    console.log(event.target.innerHTML);
-    dispatch({type: 'add', value: event.target.innerHTML});
+    if(event.target.innerHTML === 'AC') {
+        dispatch({type: 'clearAll'});
+    } else if(event.target.innerHTML === '=') {
+        dispatch({type: 'evaluate'});
+    } else {
+        dispatch({type: 'add', value: event.target.innerHTML});
+    }
+    
     setButtonHighlighted(true);
     setTimeout(() => {
       setButtonHighlighted(false);
